@@ -7,18 +7,11 @@ int main()
 
     long long a,b,c;
     cin >> a >> b >> c;
-    if(c-b < 0)
+    if(c-b <= 0)
     {
         cout<<"-1"<<endl;
     }else{
-        for(int i=1; ;i++)
-        {
-            if(a < (c-b)*i)
-            {
-                cout<<i<<endl;
-                break;
-            }
-        }
+        cout<<a / (c-b) + 1<<endl;
     }
 
 
