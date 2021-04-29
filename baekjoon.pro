@@ -3,4 +3,4 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += 1712.cpp \
+SOURCES += 2292.cpp
